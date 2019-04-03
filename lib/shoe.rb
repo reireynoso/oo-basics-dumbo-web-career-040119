@@ -5,7 +5,5 @@ class Shoe
     @shoe = shoes
   end
   
-  def shoe
-    @shoe
-  end
+  attr_accessor :shoe
 end
