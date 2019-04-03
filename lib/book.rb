@@ -1,11 +1,11 @@
 class Book
     def initialize(title)
       @title = title
-      @shoe_brand = "Adidas"
+      @shoe = "Adidas"
     end
     
-    def shoe_brand
-      @shoe_brand
+    def shoe
+      @shoe
     end
     def title 
       @title
