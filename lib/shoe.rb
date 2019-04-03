@@ -1,8 +1,8 @@
 # Make your shoe class here!
 
 class Shoe 
-  def initialize
-    @shoe = "Adidas"
+  def initialize(shoes)
+    @shoe = shoes
   end
   
   def shoe
