@@ -32,12 +32,7 @@ class Book
       @genre
     end
     
-    def turn_page=(message)
-      @turn_page = message
-    end
-    
     def turn_page
-      puts @turn_page
-      @turn_page
+      puts ""
     end
 end
