@@ -28,4 +28,20 @@ class Shoe
   def size
     @shoe_size
   end
+  
+  def material=(type)
+    @material = type
+  end
+  
+  def material 
+    @material
+  end
+  
+  def condition=(cond)
+    @condition = cond
+  end
+  
+  def condition
+    @condition
+  end
 end
