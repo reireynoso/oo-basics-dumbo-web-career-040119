@@ -45,5 +45,7 @@ class Shoe
     @condition
   end
   
-  attr_accessor :cobble
+  def cobble
+    puts 
+  end
 end
