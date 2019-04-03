@@ -1,9 +1,12 @@
 class Book
     def initialize(title)
       @title = title
-  
+      @shoe_brand = "Adidas"
     end
     
+    def shoe_brand
+      @shoe_brand
+    end
     def title 
       @title
     end
@@ -35,4 +38,6 @@ class Book
     def turn_page
       puts "Flipping the page...wow, you read fast!"
     end
+    
+    
 end
