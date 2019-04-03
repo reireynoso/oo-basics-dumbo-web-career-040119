@@ -32,5 +32,5 @@ class Book
       @genre
     end
     
-    attr_accessor :turn_page
+    def turn_page=()
 end
