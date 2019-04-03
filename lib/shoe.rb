@@ -44,4 +44,6 @@ class Shoe
   def condition
     @condition
   end
+  
+  attr_accessor :cobble
 end
